@@ -3,7 +3,7 @@ layout: post
 title: Curriculum
 ---
 
-![Curriculum](/images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg)
+![](/images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg)
 
 My body jumped when I first saw the words "Hello World" appear on an empty page in my browser.  All I did was write a five-line text file, and type the command `node server.js` into the command line and there it was, "Hello World", the first words of the first server I ever created.  It was a rush, I could feel my heart racing as I continued reading [**The Node Beginner Book**](http://www.nodebeginner.org/), examining every word and trying to understand every line of the elegant [Node.js](http://nodejs.org/) http server.
 
