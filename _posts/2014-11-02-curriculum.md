@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Curriculum
+image: /images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg
 ---
 
 ![](/images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg)
