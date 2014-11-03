@@ -3,7 +3,7 @@ layout: post
 title: Curriculum
 ---
 
-![](/images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg)
+![Curriculum](/images/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg)
 
 My body jumped when I first saw the words "Hello World" appear on an empty page in my browser.  All I did was write a five-line text file, and type the command `node server.js` into the command line and there it was, "Hello World", the first words of the first server I ever created.  It was a rush, I could feel my heart racing as I continued reading [**The Node Beginner Book**](http://www.nodebeginner.org/), examining every word and trying to understand every line of the elegant [Node.js](http://nodejs.org/) http server.
 
@@ -25,7 +25,7 @@ From Chris's advertisements, I found [treehouse](http://teamtreehouse.com/join/n
 
 Once I finally came to JavaScript, I had a very hard time finding the right place to start. I spent a few weeks reading the [W3C DOM Specification](http://www.w3.org/TR/2000/WD-DOM-Level-1-20000929/), which is a sure-fired way to get someone unexcited about JavaScript. Trust me, one day you will need to read the docs, but that should not be the first thing you learn.
 
-I realized I had graduated from walkthrough level resources, but documentation was too dense and technical for me. That is when I found two great resources that brought me to where I am now, [JSbooks](http://jsbooks.revolunet.com/) - a list of free JavaScript learning resources, and [Superhero.js](http://superherojs.com/) - a coallated list that can get you from understanding scope all the way through building single-page-apps.
+I realized I had graduated from walkthrough level resources, but documentation was too dense and technical for me. That is when I found two great resources that brought me to where I am now, [JSbooks](http://jsbooks.revolunet.com/) - a list of free JavaScript learning resources, and [Superhero.js](http://superherojs.com/) - a collated list that can get you from understanding scope all the way through building single-page-apps.
 
 ## For the curious and the brave
 
