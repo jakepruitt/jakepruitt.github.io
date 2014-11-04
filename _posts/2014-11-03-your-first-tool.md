@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Your First Tool - The Node Command
+image: /images/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg
 ---
 
 ![](/images/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg)
