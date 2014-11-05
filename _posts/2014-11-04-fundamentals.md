@@ -7,7 +7,7 @@ description: Ever wonder exactly what programming is? In this article, we re-exa
 
 ![Fundamentals - JavaScript Jake](/images/stick-and-stones.jpg)
 
-*Before you start reading this post, it might be a good idea to read through the [tutorial](/2014/11/03/your-first-tool.html) for getting Node.js on your computer. Or, if you'd rather use an online playground, check out [JS Bin](http://jsbin.com/?js,console).*
+*Before you start reading this post, it might be a good idea to read the [tutorial](/2014/11/03/your-first-tool.html) for getting Node.js on your computer. Or, if you'd rather use an online playground, check out [JS Bin](http://jsbin.com/?js,console).*
 
 When I started coding, no one ever explained to me what programming actually was. As far as I was concerned, programmers were wizards that drew messy diagrams on whiteboards, spoke secret parseltongue to computers, and then made Facebook appear. I was under the impression that it took four years of college in an intense Computer Science department to become a good programmer, and that I didn't have the time, patience, or knowledge to look under the hood of the black box on my desk.
 
@@ -17,21 +17,21 @@ This is how I see the black box of code.
 
 ## The Interface
 
-The word **Interface** is one of those terms that gets thrown around a lot in computing, design, and physics as well. For the longest time, I just smiled and nodded when people used this word, but I never really understood the concept. It's a difficult concept, but once I understood it, everything seemed to click for me.
+The word **Interface** is one of those terms that is thrown around a lot in computing, design, and physics as well. For the longest time, I just smiled and nodded when people used this word, but I never really understood the concept. It's a difficult concept, but once I understood it, everything seemed to click for me.
 
 I once saw a video where a designer described an interface as a boundary, like the surface of a lake where water meets air. This idea still resonates with me. The air doesn't interact with anything under the surface of the water, it only has contact with that outermost layer.
 
-An interface is any boundary, any layer that affords interaction between two things, like the words of a book or the screen of your TV. The verb **to interface** describes the action of two peices clicking together, each piece being made to fit with the other peice. It's the moment of the circus act where the two trapeze artists link arms in mid-air, they each had to practice and provide a way for the other trapeze artist to easily connect with them.
+An interface is any boundary, any layer that affords interaction between two things, like the words of a book or the screen of your TV. The verb **to interface** describes the action of two pieces clicking together, where each piece was made to fit with the other. It's the moment of the circus act where the two trapeze artists link arms in mid-air, they each had to practice and provide a way for the other trapeze artist to easily connect with them.
 
-Hopefully these analogies help clear up what an interface is conceptually. Once it clicks for you, you will see that everything has an interface. The key to understanding programming is to think of it in terms of an interface.
+I hope these analogies help clear up what an interface is conceptually. Once it clicks for you, you will see that everything has an interface. The key to understanding programming is to think of it in terms of an interface.
 
 ## Below the Surface
 
-Your computer is effectively a collection of a lot of pieces of hardware; hardware that can add numbers, perform logic, remember numbers, and send and receive numbers. That's about it, fundamentally. What makes a computer really really great is the interface it gives us to do those operations. Like the surface of the lake, all we see is the screen of pixels, and all we can do is move our mouse and type in the keyboard. The metal pieces and parts with electricity flowing through them are hidden away from us. When we want to access facebook, we can just click on icons, type in URL bars, and look at pictures of our friends. We don't have to manually turn on and off electricity to metal wires and then decode what the electrical response is.
+Your computer is effectively a collection of a lot of pieces of hardware; hardware that can add numbers, perform logic, remember numbers, and send and receive numbers. That's about it, fundamentally. What makes a computer really, really great is the interface it gives us to do those operations. Like the surface of the lake, all we see is the screen of pixels, and all we can do is move our mouse and type in the keyboard. The metal pieces and parts with electricity flowing through them are hidden away from us. When we want to access Facebook, we can just click on icons, type in URL bars, and look at pictures of our friends. We don't have to manually turn on and off electricity to metal wires and then decode what the electrical response is.
 
 We can happily be ignorant of what lies under the surface of our computer, and trust the thousands of brilliant people who have built the easy interface of screens and keyboards.
 
-Code, just like the Facebook homepage in your browser or the image editing tool on your desktop, is an interface. It is a way to interact with your hardware at a lower level than clicking on buttons on a screen. With code, you have closer access to the memory, processor and networking hardware that lies within your machine.
+Code, just like the Facebook homepage in your browser or the image-editing tool on your desktop, is an interface. It is a way to interact with your hardware at a lower level than clicking on buttons on a screen. With code, you have closer access to the memory, processor and networking hardware that lies within your machine.
 
 If you wanted to tell your processor to add `2 + 2`, you could open up the calculator application and push the `2`, `+`, `2` and `=` buttons in that order, and it would show you `4`. Internally, the calculator application is just a bunch of presentation code that displays the application on the screen, reads the input from the user, and then, through the interface of code, tells the processor to add `2 + 2`, and displays the result. The person who wrote the code for the calculator didn't have to set up the wiring to add binary representations of 2 and 2. By writing code in text files in a way that the computer can understand, the developer had access to that hardware. Code is nothing more than another layer, the user interfaces with the application code, and the application code interfaces with the hardware. Think of code as translating clicks into hardware commands.
 
@@ -46,7 +46,7 @@ Want to try out some of these ideas on your own? With JavaScript (either in the 
 * Access memory with `var` (e.g. `var age = 13` stores the number `13` to the key `age`).
 * Perform mathematical operations (e.g. `+`, `-`, `>`, or `Math.sqrt()`)
 * Display information on the screen (e.g. `console.log("Hello World!")`)
-* Send and recieve data (e.g. `http.createServer(...)` read more [here](http://book.mixu.net/node/ch10.html))
+* Send and receive data (e.g. `http.createServer(...)` read more [here](http://book.mixu.net/node/ch10.html))
 
 ## Learn more
 
