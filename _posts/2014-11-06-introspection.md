@@ -75,7 +75,8 @@ console.log("URL Requested: ", req.url);
 ...
 ```
 
-Now the output should look like this:
+Now the output should have the url display after the timestamp. The output should look like something like this:
+
 ```
 Server listening at 127.0.0.1:1337
 Request recieved at:  Thu Nov 06 2014 22:09:32 GMT-0700 (US Mountain Standard Time)
