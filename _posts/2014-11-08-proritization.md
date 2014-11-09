@@ -15,3 +15,9 @@ But this is how I survive.
 I am lucky enough to have fantastic coworkers that are always looking out for my best interests. After a late night commit message, my supervisor sent me an email saying, "Go to sleep! #Avoidburnout." When I need to take break and finish some homework, they give me my space and let me crank out whatever I need. I consider them my family, and enjoy every minute I spend with them.
 
 My roommates are also incredible, not only in holding me accountable for this blog, but for encouraging me in all of my decisions. They are the steady base that makes everything I do possible, I know plenty of people who's roommates hold them back, or discourage from the opportunities that they get.
+
+## The tools
+
+I am able to accomplish a great amount of work by outsourcingthings I don't need to do, and only focus on accomplishing what I am good at. The number one tool I use for that is evernote, and whenever I need to remember a deadline, I outsource remembering those responsibilities by making a reminder of it.
+
+I also have begin using Pocketcast to stay up to date on tech news, much better than having to find articles or read through newsletters, especiallysince I usuallydon't have WiFi on the train to work.
