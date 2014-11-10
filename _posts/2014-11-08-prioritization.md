@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /images/prioritization.jpg
+title: Prioritization
 description: Trying to handle three majors, a part time job, a social life, and sleep
 ---
 
@@ -14,7 +15,7 @@ But this is how I survive.
 
 I am lucky enough to have fantastic coworkers that are always looking out for my best interests. After a 2:30 a.m. commit message, my supervisor sent me an email saying, "Go to sleep! #Avoidburnout." When I need to take a break and finish some homework, they give me my space and let me crank out whatever I need. I consider them my family, and enjoy every minute I spend with them.
 
-My roommates are also incredible, not only in holding me accountable for this blog, but for encouraging me in all of my decisions. They are the steady base that makes everything I do possible, I know plenty of people who's roommates hold them back, or discourage from the opportunities that they get. For me, my best ideas usually come from my roommates, and when I am having a rough time, they are there for me without me needing to ask.
+My roommates are also incredible, not only in holding me accountable for this blog, but for encouraging me in all of my decisions. They are the steady base that makes everything I do possible, I know plenty of people whose roommates hold them back, or discourage from the opportunities that they get. For me, my best ideas usually come from my roommates, and when I am having a rough time, they are there for me without me needing to ask.
 
 ## The Mission
 
