@@ -45,7 +45,7 @@ There are programmers out there who believe [you aren't a real programmer unless
 
 ### Why learn it
 
-Like assemlby, learning C/C++ can really improve your knowledge of how computers work from the inside out. There is very little you will feel uncomfortable with after you master C++. I personally like C++ quite a bit due to its versatility and power. One day I hope to contribute to the Node.js core C++ code, so I will be trying to learn more of this once I finish mastering JavaScript.
+Like assembly, learning C/C++ can really improve your knowledge of how computers work from the inside out. There is very little you will feel uncomfortable with after you master C++. I personally like C++ quite a bit due to its versatility and power. One day I hope to contribute to the Node.js core C++ code, so I will be trying to learn more of this once I finish mastering JavaScript.
 
 ### Getting started
 
@@ -53,7 +53,7 @@ If you are feeling brave, start by perusing the sources in [this stackoverflow q
 
 ## Java - *French*
 
-Java is a very well structured language, with very formal conventions and strict adherance to those rules. My coworker once described Java as a gun with lots of safeties. It has conventions and rules in place to prevent you from shooting yourself in the foot, but I sometimes find the structure is a bit stifling. Java has been around for a long time, and it still remains one of the most used server-side languages, although its old age sometimes makes it the punchline to a programmer joke about outdated languages.
+Java is a very well structured language, with very formal conventions and strict adherence to those rules. My coworker once described Java as a gun with lots of safeties. It has conventions and rules in place to prevent you from shooting yourself in the foot, but I sometimes find the structure is a bit stifling. Java has been around for a long time, and it still remains one of the most used server-side languages, although its old age sometimes makes it the punchline to a programmer joke about outdated languages.
 
 ### Why learn it
 
