@@ -39,7 +39,7 @@ Only attempt learning assembly if you are already confident with other programmi
 
 ## C/C++ - *Latin*
 
-One level above assembly language is C and C++. You can think of C++ as "C with bonus features and behind the scenes content". They both operate very close to the machine level, and most heavy-duty software applications, including the inner workings of Node.js, the Chrome browser, operating systems, and high-powered PC video games are written in C or C++. All languages later in this article are evntually turned into C by some sort of compiler or virtual machine.
+One level above assembly language is C and C++. You can think of C++ as "C with bonus features and behind the scenes content". They both operate very close to the machine level, and most heavy-duty software applications, including the inner workings of Node.js, the Chrome browser, operating systems, and high-powered PC video games are written in C or C++. All languages later in this article are eventually turned into C by some sort of compiler or virtual machine.
 
 There are programmers out there who believe [you aren't a real programmer unless you know C pointers](http://www.joelonsoftware.com/articles/ThePerilsofJavaSchools.html). I personally find this approach very damaging to the community; you should never let someone tell you that you [aren't a "real" programmer](https://medium.com/@cecilycarver/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329).
 
