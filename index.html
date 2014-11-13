@@ -8,7 +8,7 @@ title: JavaScript Jake
   <div class="posts">
     {% for post in site.tags.popular %}
     	<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-    	<a href="{{ post.url }}"><img src="{{ post.image }}" /></a>
+      <p><a href="{{ post.url }}"><img src="{{ post.image }}" /></a></p>
     	<p>{{ post.description }} | <a href="{{ post.url }}">Read More</a></p>
     {% endfor %}
   </div>
