@@ -385,7 +385,20 @@ Full-Width Styles
   left: 8px;
 }
 
+.feedlyFollow {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  left: 15px;
+}
 
+.fl_flip_button {
+  left: 23px;
+  top: -6px;
+}
 
 /*******************************************************************************
 Small Device Styles
