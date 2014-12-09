@@ -12,6 +12,14 @@ title: JavaScript Jake
     	<p>{{ post.description }} | <a href="{{ post.url }}">Read More</a></p>
     {% endfor %}
   </div>
+  <h1>Yesterday's Post</h1>
+  <div class="posts">
+    {% for post in site.posts limit:1 %}
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <p><a href="{{ post.url }}"><img src="{{ post.image }}" /></a></p>
+      <p>{{ post.description }} | <a href="{{ post.url }}">Read More</a></p>
+    {% endfor %}
+  </div>
   <h1>All Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
