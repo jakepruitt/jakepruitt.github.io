@@ -7,7 +7,7 @@ description: There is just a tremendous amount of craftsmanship in between a gre
 
 ![](/images/forethought.jpg)
 
-There is one perfect way to plan a project. Every project has a different situation, no project will pan out exactly as expected, and bugs are a fact of life, no matter how perfect you are. I've recently been given an exciting open source project to work on from my very smart friends at [nearForm](http://www.nearform.com/). I have about 8-12 weeks to create a checklist web app using the latest beta version of [Seneca](http://senecajs.org/), a micro-services toolkit for Node.js. I cannot wait to get started, and have tons of ideas floating around on where to begin.
+There is no one perfect way to plan a project. Every project has a different situation, no project will pan out exactly as expected, and bugs are a fact of life, no matter how perfect you are. I've recently been given an exciting open source project to work on from my very smart friends at [nearForm](http://www.nearform.com/). I have about 8-12 weeks to create a checklist web app using the latest beta version of [Seneca](http://senecajs.org/), a micro-services toolkit for Node.js. I cannot wait to get started, and have tons of ideas floating around on where to begin.
 
 But before I even begin, I want to work through a few thoughts that will help decide course of the project. I want to figure out my workflow, decide on the drivers of the project, and identify industry best-practices I want to incorporate into the design and management of my time. I have had a lot of projects go wrong before, and the following items are some ideas that I think can help ensure this project turns out great.
 
