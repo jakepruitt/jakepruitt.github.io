@@ -63,6 +63,8 @@ app.listen(3000)
 // returns {"bar":"ab"}
 ```
 
+The nice part about this method is that the API can simply be defined on the basis of the routes. The only difficulty is that the web server must be an express server, and cannot be a Hapi server or Director server.
+
 **PRO TIP:** One of the handiest commands available for seneca-web is the `'role:web, cmd:routes'` command. This passes an array of all of the routes to a callback, which then can be logged and inspected. For instance:
 
 ```JavaScript
@@ -74,6 +76,8 @@ seneca.act('role:web, cmd:routes', function(err, routes) {
 Making Seneca Hapi
 ------------------
 
-The nice part about this method is that the API can simply be defined on the basis of the routes. The only difficulty is that the web server must be an express server, and cannot be a Hapi server or Director server.
+Right now, I am working on a Hapi plugin that will create the routes stored in seneca-web and map those routes to the appropriate commands. So far, I have really enjoyed working with Hapi, and find its API very robust and solid. I now have a much better idea of how the `seneca-web` component of the system works, and will use that to marry the super-powered web framework of Hapi with the microservice mindset, and hopefully some best practices will surface.
 
-That is my job right now, to write a Hapi plugin that will create the routes stored in seneca-web and map those routes to the appropriate commands. 
+If you are interested in following the Hapi/Seneca progress, check out the [Checklist application](https://github.com/jrpruit1/checklist) that I am building using **B**ootstrap, **A**ngular, **S**eneca, and **H**api (or **BASH**). Most of the application is smoke tests at this point, but the components have been chosen carefully to be simple and robust.
+
+Later this week, I will have a post about the decisions I have made setting up a **BASH** application, and possibly create a Yeoman generator that can scaffold out a similar application from the command line. My goal is to constantly simplify the application to its core components, and once I have built an intuitive way for Seneca and Hapi to communicate, I will have most of what I need.
