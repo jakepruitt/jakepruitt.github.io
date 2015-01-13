@@ -32,7 +32,36 @@ This method returns an array with all of the possible actions that are currently
 Seneca over HTTP
 ----------------
 
-It took quite some time for me to finally grok the way seneca created a web API. There are lots of ways to expose the seneca actions to HTTP methods, including the `seneca.listen()` method, which listens for POST requests on `http://localhost:10101/act` and responds to the actions specified in the JSON request.
+It took quite some time for me to finally understand the way to use Seneca to create a web API. There are lots of ways to expose the seneca actions to HTTP methods, including the `seneca.listen()` method, which listens for POST requests on `http://localhost:10101/act` and responds to the actions specified in the JSON request. For instance, in one file you can define an action for generating ID's:
+
+```JavaScript
+require('seneca')()                       
+  .add( 
+    { generate:'id'},                 
+      function( message, done ) {
+        done( null, 
+          {id:''+Math.random()} )
+        })
+  .listen()
+```
+
+This can then be accessed by running:
+
+```bash
+$ curl -d '{"generate":"id"}' http://localhost:10101/act
+{"id":"28375388"}
+```
+
+Or in a JavaScript application by using `seneca.client()` like so:
+
+```JavaScript
+require('seneca')()
+  .client()
+  .act( { generate:'id' },
+    function( err, result ) {
+      console.log(JSON.stringify(result))
+    })
+```
 
 Another method for setting up an HTTP interface for seneca is to register commands with the seneca-web `use` command. This creates routes that map to the services, and these routes can be added to an express or connect app by using the `seneca.export('web')` method. The following example illustrates this method:
 
@@ -78,6 +107,12 @@ Making Seneca Hapi
 
 Right now, I am working on a Hapi plugin that will create the routes stored in seneca-web and map those routes to the appropriate commands. So far, I have really enjoyed working with Hapi, and find its API very robust and solid. I now have a much better idea of how the `seneca-web` component of the system works, and will use that to marry the super-powered web framework of Hapi with the microservice mindset, and hopefully some best practices will surface.
 
-If you are interested in following the Hapi/Seneca progress, check out the [Checklist application](https://github.com/jrpruit1/checklist) that I am building using **B**ootstrap, **A**ngular, **S**eneca, and **H**api (or **BASH**). Most of the application is smoke tests at this point, but the components have been chosen carefully to be simple and robust.
+If you are interested in following the Hapi/Seneca progress, check out the [Checklist application](https://github.com/jrpruit1/checklist) that I am building using Bootstrap, Angular, Seneca, and Hapi. Most of the application is smoke tests at this point, but the components have been chosen carefully to be simple and robust.
 
-Later this week, I will have a post about the decisions I have made setting up a **BASH** application, and possibly create a Yeoman generator that can scaffold out a similar application from the command line. My goal is to constantly simplify the application to its core components, and once I have built an intuitive way for Seneca and Hapi to communicate, I will have most of what I need.
+Later this week, I will have a post about the decisions I have made setting up this application, and possibly create a Yeoman generator that can scaffold out a similar application from the command line. My goal is to constantly simplify the application to its core components, and once I have built an intuitive way for Seneca and Hapi to communicate, I will have most of what I need. Since I have a firm knowledge of how seneca-web works, I know the next three steps of my progress:
+
+1. Find a way to register the routes from seneca-web into Hapi, and trigger the sample seneca command I set up.
+2. Generalize the logic to work for any kind of routes and extract that into a separate module.
+3. Find a best practice for registering seneca commands, possibly in single-file plugins, and organize the project to reflect that.
+
+After all of that is complete, I will have a nice template for future projects, so I will probably copy the structure into its own repository, and possibly make a yeoman generator. I will let you know about the progress!
