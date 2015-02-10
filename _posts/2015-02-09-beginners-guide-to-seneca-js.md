@@ -115,7 +115,7 @@ Notice that we have a reference to the seneca instance in `inventory.js` through
 
 Hundreds of existing plugins can be leveraged to bring pre-built actions into your application, from Express server integration to authentication and database access. The ecosystem is quite extensive and can make application writing much faster once you understand how to call the actions.
 
-The Next Level: Multiple `node` Processes
+The Next Level: Multiple Node Processes
 -----------------------------------------
 
 In the above example, the application can be started by running `node server.js` and everything will occur on that process. However, what if you wanted multiple processes running, one that simply handled the inventory actions and another process that consumed them. Inter-process communication can be tricky for Node applications, but Seneca allows you to make this change with only two changes in your code. We will keep the `inventory.js` file the same as before, exposing the actions as a Seneca plugin. However, we will create two main files, one called `inventory-service.js` that will run the service on port 10101 using `seneca.listen` and another file `inventory-client.js` that will use `seneca.client` to access the service and use its actions.
