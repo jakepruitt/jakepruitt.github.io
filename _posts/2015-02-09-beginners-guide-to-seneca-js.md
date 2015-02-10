@@ -155,4 +155,4 @@ Now that you understand a small part of what Seneca provides, you can begin maki
 * [Build a Search Engine using Microservices](http://blog.skillsmatter.com/2014/09/10/build-a-search-engine-for-node-js-modules-using-microservices-part-1/)
 * [Falling in Love with Technical debt](http://www.slideshare.net/rjrodger/richard-rodger-technical-debt-web-summit-2013) (talk)
 * [Microservices](http://martinfowler.com/articles/microservices.html) (long-form explanation of microservices)
-* [Well app](https://github.com/nearform/well)
+* [Well app](https://github.com/nearform/well) (example application)
