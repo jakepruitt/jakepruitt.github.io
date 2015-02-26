@@ -274,7 +274,7 @@ And don't forget to add the `/services/DirectoryService.js` file to the bottom o
 
 Running `npm start` and opening `http://localhost:4000/` will show you this:
 
-![](/images/success228.jpg)
+![](/images/screenshot228.png)
 
 Next Level
 ----------
