@@ -179,4 +179,106 @@ You can now run `npm start` and open your browser to `http://localhost:4040/api/
 Connecting from AngularJS
 -------------------------
 
+Now that you have a working back-end to read from, it's time to create the necessary components with AngularJS to display the information. In the `client` folder, you will see all of the files organized according to Todd Motto's [Opinionated AngularJS styleguide for teams](http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/), which is my personal favorite when creating an AngularJS app:
 
+```
+client
+|-- css
+|   |-- app.css
+|-- js
+|   |-- controllers
+|   |   |-- HomeController.js
+|   |-- services
+|   |   |-- TestService.js
+|   |-- app-config.js
+|   |-- app.js
+|-- partials
+|   |-- home.html
+|-- index.html
+```
+
+In order to keep resource interaction out of the controller, create a new service, called `DirectoryService.js` in the `services` folder. This service will handle all directory operations, for now it will only perform the `ls` function. In the `DirectoryService.js` file, create a function that will call `/api/ls` and return the data.
+
+```JavaScript
+// DirectoryService.js
+'use strict';
+
+function DirectoryService($http) {
+  function ls(success) {
+    var httpPromise = $http.get('http://localhost:4040/api/ls');·
+    return httpPromise.success(success);
+  } 
+
+  return {
+    ls: ls  
+  };
+}
+
+angular
+  .module('app')
+  .service('DirectoryService', DirectoryService);
+```
+
+Now in the `HomeController.js` file, we can make a call to `DirectoryService.ls()` and set the scope variable `files` to the output of the API call:
+
+```JavaScript
+'use strict';
+
+function HomeController(TestService, DirectoryService) {
+  var home = this;
+
+  home.working = false;
+  home.files = [];
+
+  TestService.success(function(data) {
+    home.working = data.working;
+  });
+
+  DirectoryService.ls(function(data) {
+    home.files = data.files;
+  });
+}
+
+angular
+  .module('app')
+  .controller('HomeController', HomeController);
+```
+
+And now you have access to the files through the scope variable. In `partials/home.html` add a repeated list that lists out all of the files received from the server:
+
+```HTML
+<div class="row">
+  <div class="masthead bg-primary">
+    <div class="page-header">
+      <h1 class="site-header">Hello!</h1>
+    </div>
+  </div>
+  <div class="listing row">
+    <div class="col-md-12">
+      <h3>The data is: <span ng-if="!home.working">NOT </span>Working!</h3>
+      <ul>
+        <li ng-repeat="file in home.files">{{file}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+And don't forget to add the `/services/DirectoryService.js` file to the bottom of `index.html`! Very easy to forget:
+
+```HTML
+...
+<script src="js/services/DirectoryService.js"></script>
+...
+```
+
+Running `npm start` and opening `http://localhost:4000/` will show you this:
+
+![](/images/success228.png)
+
+Next Level
+----------
+
+Now that you have defined a service and used it from back to front, you can start defining your own actions in `api.js` and map them to front-end activities! Let me know what kind of questions you have about defining questions for applications. If you want more inspiration, check out my [Checklist project](https://github.com/jrpruit1/checklist) on Github.
+
+I am going to be working on the checklist application this week and next week to make it run across multiple processes, and stretch Seneca to its limits. Keep an eye out for future improvements to the [generator-seneca](https://www.npmjs.com/package/generator-seneca) scaffolding project. I will be forging ahead with more microservice best practices next week!
