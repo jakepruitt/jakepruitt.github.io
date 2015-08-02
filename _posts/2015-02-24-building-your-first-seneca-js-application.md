@@ -10,7 +10,7 @@ description: Microservices are the new black, and they can be used today in your
 
 [Microservices](http://martinfowler.com/articles/microservices.html) are on the rise around the world right now, with a recent [Microservices Conference](http://microxchg.io/2015/index.html) in Berlin and [new microservice meetups](http://microservicesdublin.com/) starting to gain popularity. Amazon's new service [AWS Lambda](https://aws.amazon.com/lambda/) provides scalable infrastructure for small event-driven services. Many languages have their own microservice implementations, including [Colossus](https://github.com/tumblr/colossus) by Tumblr written in Scala, Apache's [Zookeeper](https://github.com/apache/zookeeper) in Java, and a Node.js implementation that I've been using called [Seneca.js](http://senecajs.org/). Recently, I wrote a [Beginner's guide to Seneca.js](http://javascriptjake.com/2015/02/09/beginners-guide-to-seneca-js.html) for newcomers, which walks through the basics of what Seneca.js is and does.
 
-This week, I'm going to walk through the basics of starting a Seneca.js project as the back-end to an Angular.js application. This guide will help get you off the ground for your first Seneca.js application, introduce you to [seneca-web](https://github.com/rjrodger/seneca-web) for creating HTTP endpoints, and interacting with Seneca's most fundamental concept, actions. You can read the final source of a Seneca.js application [on Github](https://github.com/jrpruit1/checklist) or interact with the [live demo](http://104.236.191.251/#/login).
+This week, I'm going to walk through the basics of starting a Seneca.js project as the back-end to an Angular.js application. This guide will help get you off the ground for your first Seneca.js application, introduce you to [seneca-web](https://github.com/rjrodger/seneca-web) for creating HTTP endpoints, and interacting with Seneca's most fundamental concept, actions. You can read the final source of a Seneca.js application [on Github](https://github.com/jakepruitt/checklist) or interact with the [live demo](http://104.236.191.251/#/login).
 
 Boilerplate
 -----------
@@ -279,6 +279,6 @@ Running `npm start` and opening `http://localhost:4000/` will show you this:
 Next Level
 ----------
 
-Now that you have defined a service and used it from back to front, you can start defining your own actions in `api.js` and map them to front-end activities! Let me know what kind of questions you have about defining actions for applications. If you want more inspiration, check out my [Checklist project](https://github.com/jrpruit1/checklist) on Github.
+Now that you have defined a service and used it from back to front, you can start defining your own actions in `api.js` and map them to front-end activities! Let me know what kind of questions you have about defining actions for applications. If you want more inspiration, check out my [Checklist project](https://github.com/jakepruitt/checklist) on Github.
 
 I am going to be working on the checklist application this week and next week to make it run across multiple processes, and stretch Seneca to its limits. Keep an eye out for future improvements to the [generator-seneca](https://www.npmjs.com/package/generator-seneca) scaffolding project. I will be forging ahead with more microservice best practices next week!
