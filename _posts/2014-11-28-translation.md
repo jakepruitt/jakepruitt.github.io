@@ -66,6 +66,6 @@ System.out.println(responseString);
 
 This prints out `{"value": 0.23}` to the command line. We have successfully bridged the gap between Java and JavaScript through HTTP and JSON.
 
-All of this code can be found on GitHub in a library called [seneca-java-driver](https://github.com/jrpruit1/seneca-java-driver), which gives the abstraction above for communicating between Java and JavaScript.
+All of this code can be found on GitHub in a library called [seneca-java-driver](https://github.com/jakepruitt/seneca-java-driver), which gives the abstraction above for communicating between Java and JavaScript.
 
 How do you approach multilingual programs? Let me know what solutions you've found!
