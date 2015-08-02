@@ -7,7 +7,7 @@ title: Inauguration
 
 "And it was probably the best thing I ever did," said Rob, nodding confidently to himself. Rob was telling me about the time he wrote one blog post a day for 60 days, and how it transformed not only his character and willpower, but also his entire career.  I was in awe of Rob, he was one of my web developer heroes, and I took his advice to heart.  I thought to myself, "I would never be able to do that, I would have to know so much.  Maybe when I'm an expert like him."
 
-Earlier that week, I saw John Resig give a talk where he said if you work on a project a little bit every day, you will be amazed at the results. He then showed off his [beautiful github history](https://github.com/jeresig), with a full bar of green and a current streak of 341 days of commits.  I then saw my [measley history](https://github.com/jrpruit1) with a longest streak of 5 days and thought that I might never be as awesome as him.
+Earlier that week, I saw John Resig give a talk where he said if you work on a project a little bit every day, you will be amazed at the results. He then showed off his [beautiful github history](https://github.com/jeresig), with a full bar of green and a current streak of 341 days of commits.  I then saw my [measley history](https://github.com/jakepruitt) with a longest streak of 5 days and thought that I might never be as awesome as him.
 
 This was all at [the Future of Web Apps conference](https://futureofwebapps.com/boston-2014/) in Boston a few days ago, I was the youngest one there and I was surrounded by my heroes, people like John Resig, Joe McCann and Rob Dodson. These guys had years, even decades of experience in a field in which  I was barely two years old. I had decided to attend the conference so I could meet these people; to learn from them and see what they were like in person. I was at once inspired and intimidated by the intelligence and humble confidence that each of these people had, and above all, how welcoming they were.
 
@@ -21,7 +21,7 @@ It took a few hours to get the blog set up, I already had the domain javascriptj
 
 So this is the first post, the inauguration, of a blog that will have a starting streak of 60 straight days. I will write what I know, which is mostly web development, and from time to time might sprinkle in personal essays about being a part time front-end developer and a full-time student. I will cover things like client-side JavaScript tools, server-side NodeJS packages, game theory, and cryptography. I know I am not an expert, but I am okay with that. This blog is not about being an expert or becoming an expert. This blog is about challenging myself to be a better person, and learn more than I have ever learned before.
 
-All of the code for this blog is [on github](https://github.com/jrpruit1/jrpruit1.github.io), so you can feel free to fork it and use it for your own blog. There are great [directions for generating your own jekyll blog](https://help.github.com/articles/using-jekyll-with-pages/), and check out this great documentation for [adding a tweet button to pages](https://dev.twitter.com/web/tweet-button).
+All of the code for this blog is [on github](https://github.com/jakepruitt/jakepruitt.github.io), so you can feel free to fork it and use it for your own blog. There are great [directions for generating your own jekyll blog](https://help.github.com/articles/using-jekyll-with-pages/), and check out this great documentation for [adding a tweet button to pages](https://dev.twitter.com/web/tweet-button).
 
 ## Thank you
 
