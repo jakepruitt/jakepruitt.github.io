@@ -107,7 +107,7 @@ Making Seneca Hapi
 
 Right now, I am working on a Hapi plugin that will create the routes stored in seneca-web and map those routes to the appropriate commands. So far, I have really enjoyed working with Hapi, and find its API very robust and solid. I now have a much better idea of how the `seneca-web` component of the system works, and will use that to marry the super-powered web framework of Hapi with the microservice mindset, and hopefully some best practices will surface.
 
-If you are interested in following the Hapi/Seneca progress, check out the [Checklist application](https://github.com/jrpruit1/checklist) that I am building using Bootstrap, Angular, Seneca, and Hapi. Most of the application is smoke tests at this point, but the components have been chosen carefully to be simple and robust.
+If you are interested in following the Hapi/Seneca progress, check out the [Checklist application](https://github.com/jakepruitt/checklist) that I am building using Bootstrap, Angular, Seneca, and Hapi. Most of the application is smoke tests at this point, but the components have been chosen carefully to be simple and robust.
 
 Later this week, I will have a post about the decisions I have made setting up this application, and possibly create a Yeoman generator that can scaffold out a similar application from the command line. My goal is to constantly simplify the application to its core components, and once I have built an intuitive way for Seneca and Hapi to communicate, I will have most of what I need. Since I have a firm knowledge of how seneca-web works, I know the next three steps of my progress:
 
