@@ -3,6 +3,7 @@ layout: post
 title: Beginner's Guide to Seneca.js
 image: /images/beginners-guide-to-seneca-js.jpg
 description: This guide introduces Seneca.js, explains the basic ideas of Seneca, and provides best practices for using Seneca in your own projects.
+tags: popular
 
 ---
 

@@ -12,7 +12,7 @@ title: Jake Pruitt
     	<p>{{ post.description }} | <a href="{{ post.url }}">Read More</a></p>
     {% endfor %}
   </div>
-  <h1>Yesterday's Post</h1>
+  <h1>Recent Post</h1>
   <div class="posts">
     {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
