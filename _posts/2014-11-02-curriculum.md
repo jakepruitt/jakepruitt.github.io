@@ -53,3 +53,7 @@ That has been my track so far, and you can follow that track if you wish. Person
 ## I will be running with you
 
 I hope that I was able to get you excited about learning web development, and partially on the way to learning the great things programming has to offer. This journey has been one of the most enriching experiences of my life, and it will continue to be as I learn more in the future.  Thank you for reading, and let me know if you have any other ideas on Twitter [@thejakepruitt](https://twitter.com/thejakepruitt) or by email at [jake@jakepruitt.com](mailto:jake@jakepruitt.com).
+
+### Update: 2019
+
+After many years of this growing stale, I wanted to add an additional link to [the student's choice awards for best overall courses in JavaScript](https://courseduck.com/programming/javascript/awards.php), which outlines the best resources for different skillsets and focus areas.
